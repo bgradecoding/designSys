@@ -1,6 +1,7 @@
 {
   "name": "designsys",
   "version": "1.0.0",
+  "type": "module",
   "description": "design system with Figma",
   "main": "index.js",
   "scripts": {
@@ -8,5 +9,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/plugin-jsx": "^8.0.1",
+    "@svgr/plugin-prettier": "^8.0.1",
+    "@svgr/plugin-svgo": "^8.0.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.3"
+  }
 }
